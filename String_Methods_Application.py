@@ -8,5 +8,5 @@ class string_methods_application:
 
     #Returns true if the start value is a specified value    
     def startswith_string(my_string):
-        return my_string.startswith("software")    
+        return my_string.startswith("Software")    
 
