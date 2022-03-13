@@ -14,3 +14,14 @@ class TestStringMethods(unittest.TestCase):
     def test_startswith_string(self):
         output = string_methods_application.startswith_string("Software Testing.")
         self.assertTrue(output)
+
+    #Unit Test of Task_2
+    #Test passes when the old string is replaced with new string
+    def test_replace_string(self):
+        output = string_methods_application.replace_string("software testing")
+        self.assertEqual(output, "unit testing")
+
+    #Test passes if all the letters are in lowercase
+    def test_islower_string(self):
+        output = string_methods_application.islower_string("software testing")
+        self.assertTrue(output)
