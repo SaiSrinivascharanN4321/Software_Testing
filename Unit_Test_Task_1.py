@@ -23,5 +23,5 @@ class TestStringMethods(unittest.TestCase):
 
     #Test passes if all the letters are in lowercase
     def test_islower_string(self):
-        output = string_methods_application.islower_string("Software testing")
+        output = string_methods_application.islower_string("software testing")
         self.assertTrue(output)
