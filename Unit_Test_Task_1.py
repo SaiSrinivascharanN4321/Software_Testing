@@ -8,7 +8,7 @@ class TestStringMethods(unittest.TestCase):
     #Test passes when the first letter of the string is converted to capital letter.    
     def test_capitalize_string(self):
         output = string_methods_application.capitalize_string("software testing")
-        self.assertEqual(output, "Software testing")
+        self.assertEqual(output, "software testing")
 
     #Test passes if it returns true when start value is a specified value   
     def test_startswith_string(self):
