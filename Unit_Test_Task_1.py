@@ -31,10 +31,10 @@ class TestStringMethods(unittest.TestCase):
     #Test passes if it converts all the uppercase to lowercase
     def test_casefold_string(self):
         output = string_methods_application.casefold_string("SOFTWARE TESTING.")
-        self.assertEqual(output, "Software testing.")
+        self.assertEqual(output, "software testing.")
 
     #Test passes if it returns true when the end value is a specified value
     def test_endswith_string(self):
-        output = string_methods_application.endswith_string("Software Testing")
+        output = string_methods_application.endswith_string("Software Testing.")
         self.assertTrue(output, ".")
 
