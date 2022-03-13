@@ -17,5 +17,5 @@ class string_methods_application:
 
     #Replaces the old string with new string
     def replace_string(my_string):
-        return my_string.replace("software", "Unit")    
+        return my_string.replace("software", "unit")    
 
