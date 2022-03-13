@@ -19,3 +19,11 @@ class string_methods_application:
     def replace_string(my_string):
         return my_string.replace("software", "unit")    
 
+    #Task_3
+    #Converts all the uppercase to lowercase
+    def casefold_string(my_string):
+        return my_string.casefold()
+
+    #Returns true if the end value is a specified value
+    def endswith_string(my_string):
+        return my_string.endswith(".")
