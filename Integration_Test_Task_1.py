@@ -21,10 +21,3 @@ class TestStringMethods(unittest.TestCase):
     def test_integration_Task_3(self):
         output = string_methods_application.endswith_string(string_methods_application.casefold_string("SOFTWARE TESTING."))
         self.assertTrue(output, ".")
-
-    #Integration Test of Task_4
-    #Integrating count and title string methods
-    def test_integration_Task_4(self):
-        output = string_methods_application.count_string(string_methods_application.title_string("software tesing."))
-        self.assertTrue(output, 1)
-
