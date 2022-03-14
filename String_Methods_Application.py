@@ -27,3 +27,12 @@ class string_methods_application:
     #Returns true if the end value is a specified value
     def endswith_string(my_string):
         return my_string.endswith(".")
+    
+    #Task_4
+    #Converts string into a title form
+    def title_string(my_string):
+        return my_string.title()   
+
+    #Counts and returns the specific value in a given string
+    def count_string(my_string):
+        return my_string.count("Software")
